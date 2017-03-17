@@ -41,9 +41,11 @@ Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [a
 O projeto será adaptado para os seguintes temas (themes):
 
 1. [AdminLTE](https://github.com/almasaeed2010/AdminLTE); <br />
+>AdminLTE
 !["AdminLTE Presentation"](https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
 
 2. [Gentelella Allela](https://github.com/puikinsh/gentelella); <br />
+>Gentelella Allela
 ![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
 
 ### Referência
