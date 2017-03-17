@@ -27,7 +27,7 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 6. Experiência em sistemas Amazon Web Services - AWS;
 	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/aws.png" alt="Experiência em sistemas Amazon Web Services - AWS" height="50" width="195"></p>
 7. Experiência em usar Oracle WebLogic Server;
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/ows.jpeg" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
+	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/ows.png" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
 8. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
 
 ### Como usar:
