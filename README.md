@@ -16,7 +16,7 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 
 
 1. Spring 4.x, Spring Boot, Spring Security, Spring Core, Spring OAuth;
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/spring-core-arquitetura.png" alt="Arquitetura do Spring Core 4.x" height="400" width="300"/></p>
+	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/spring-core-arquitetura.png" alt="Arquitetura do Spring Core 4.x" height="300" width="400"/></p>
 2. EJB 2, EJB 3, Hibernate 3/JPA, Hibernate 2/JPA, Java SWT, JBoss 4.x, 7.x, Wildfly;
 3. Experiência em sistemas de banco de dados NoSQL (Cassandra, [MongoDB](https://www.mongodb.com/), etc.);
 	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/mongoDB.png" alt="Experiência em sistemas de banco de dados NoSQL" height="50" width="195"/></p>
