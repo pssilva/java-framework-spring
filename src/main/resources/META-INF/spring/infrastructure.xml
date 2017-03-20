@@ -31,7 +31,8 @@
         <property name="entityManagerFactory" ref="entityManagerFactory" />
     </bean>
 
-    <jee:jndi-lookup jndi-name="java:jboss/datasources/java-framework-springDSBasic" id="dataSource" expected-type="javax.sql.DataSource" />
+    <jee:jndi-lookup jndi-name="java:jboss/datasources/java-framework-springDSBasic" id="dataSource" 
+    			     expected-type="javax.sql.DataSource" />
 
     <tx:jta-transaction-manager />
 
