@@ -50,3 +50,7 @@ app/core/client/lib/*
 ###############
 ## TEMPLATES ##
 ###############
+target/*
+
+
+doc-repo/java-spring.juth.bak
