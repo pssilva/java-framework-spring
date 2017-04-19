@@ -61,7 +61,7 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 	<%@include file = "/WEB-INF/views/header.jsp" %>
-	<%@include file = "/WEB-INF/views/home.jsp" %>
+	<%@include file = "/WEB-INF/views/angularjs-home.jsp" %>
 	<%@include file = "/WEB-INF/views/menu.jsp" %>
 	<%@include file = "/WEB-INF/views/footer.jsp" %>
 </div>

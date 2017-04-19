@@ -30,7 +30,6 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-   
 
     <servlet>
         <servlet-name>jboss-as-kitchensink</servlet-name>
@@ -48,12 +47,13 @@
     </servlet-mapping>
     
     
-    <servlet-mapping>
+    <!-- <servlet-mapping>
         <servlet-name>app</servlet-name>
         <url-pattern>/app</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>hello</servlet-name>
         <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping> -->
+    
 </web-app>

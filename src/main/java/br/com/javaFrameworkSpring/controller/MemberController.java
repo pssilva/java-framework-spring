@@ -43,6 +43,11 @@ public class MemberController {
         return "index";
     }
 
+    @RequestMapping(value = "/angularjs", method = RequestMethod.GET)
+    public String displayAngularJs() {
+        return "angularjs";
+    }
+
     @RequestMapping(method = RequestMethod.POST)
     public String registerNewMember(@Valid @ModelAttribute("newMember") Member newMember, BindingResult result, Model model) {
         if (!result.hasErrors()) {

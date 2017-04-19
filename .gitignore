@@ -50,11 +50,12 @@ app/core/client/lib/*
 ###############
 ## TEMPLATES ##
 ###############
+
 target/*
-theme/AdminLTE-2.3.7/documentation/*
-theme/AdminLTE-2.3.7/build/*
-theme/AdminLTE-2.3.7/dist/*
+src/main/webapp/theme/AdminLTE-2.3.7/documentation/*
+src/main/webapp/theme/AdminLTE-2.3.7/build/*
+src/main/webapp/theme/AdminLTE-2.3.7/dist/*
 src/main/webapp/theme/AdminLTE-2.3.7/bower_components/*
+src/main/webapp/theme/AdminLTE-2.3.7/node_modules/*
 
 doc-repo/java-spring.juth.bak
-/target/
