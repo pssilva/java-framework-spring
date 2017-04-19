@@ -16,113 +16,56 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>SpringMVC Starter Application</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="<c:url value="/static/resources/css/screen.css"/>"/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <title>AdminLTE 2 | Dashboard</title> -->
+  <title><tiles:insertAttribute name="title" ignore="true" /></title>  
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/bootstrap/css/bootstrap.min.css"/>">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/dist/css/AdminLTE.min.css"/>">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/dist/css/skins/_all-skins.min.css"/>">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/plugins/iCheck/flat/blue.css"/>">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/plugins/morris/morris.css"/>">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/plugins/jvectormap/jquery-jvectormap-1.2.2.css"/>">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/plugins/datepicker/datepicker3.css"/>">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/plugins/daterangepicker/daterangepicker.css"/>">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="<c:url value="/static/theme/AdminLTE-2.3.7/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"/>">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-
-<body>
-<div id="container">
-    <div class="dualbrand">
-        <img src="<c:url value="/static/resources/gfx/rhjb_eap_logo.png"/>"/>
-    </div>
-    <div id="content">
-        <h1>Welcome to JBoss!</h1>
-
-        <div>
-            <p>You have successfully deployed a basic SpringMVC web application.</p>
-        </div>
-
-        <form:form commandName="newMember" id="reg">
-            <h2>Member Registration</h2>
-
-            <p>Enforces annotation-based constraints defined on the model class.</p>
-            <table>
-                <tbody>
-                <tr>
-                    <td><form:label path="name">Name:</form:label></td>
-                    <td><form:input path="name"/></td>
-                    <td><form:errors class="invalid" path="name"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="email">Email:</form:label></td>
-                    <td><form:input path="email"/></td>
-                    <td><form:errors class="invalid" path="email"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="phoneNumber">Phone #:</form:label></td>
-                    <td><form:input path="phoneNumber"/></td>
-                    <td><form:errors class="invalid" path="phoneNumber"/></td>
-                </tr>
-                <tr>
-                    <td><p style="color: red">${error}</p></td>
-                </tr>
-                </tbody>
-            </table>
-            <table>
-                <tr>
-                    <td>
-                        <input type="submit" value="Register" class="register"/>
-                        <input type="reset" value="Cancel" class="cancel"/>
-                    </td>
-                </tr>
-            </table>
-        </form:form>
-        <h2>Members</h2>
-        <c:choose>
-            <c:when test="${members.size()==0}">
-                <em>No registered members.</em>
-            </c:when>
-            <c:otherwise>
-                <table id="membersTable" class="simpletablestyle">
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Phone #</th>
-                            <th>REST URL</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <c:forEach items="${members}" var="member">
-                            <tr>
-                                <td>${member.id}</td>
-                                <td>${member.name}</td>
-                                <td>${member.email}</td>
-                                <td>${member.phoneNumber}</td>
-                                <td><a href="<c:url value="/rest/members/${member.id}"/>">/rest/members/${member.id}</a></td>
-                            </tr>
-                        </c:forEach>
-                    </tbody>
-                </table>
-                <table class="simpletablestyle">
-                    <tr>
-                        <td>
-                            REST URL for all members: <a href="<c:url value="/rest/members"/>">/rest/members</a>
-                        </td>
-                    </tr>
-                </table>
-            </c:otherwise>
-        </c:choose>
-    </div>
-    <div id="aside">
-        <p>Learn more about Red Hat JBoss Enterprise Application Platform 6.</p>
-        <ul>
-            <li><a href="https://access.redhat.com/site/documentation/JBoss_Enterprise_Application_Platform/">Documentation</a></li>
-            <li><a href="http://red.ht/jbeap-6">Product Information</a></li>
-        </ul>
-    </div>
-    <div id="footer">
-        <p>
-            This project was generated from a Maven archetype from
-            JBoss.<br/>
-        </p>
-    </div>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+<%@include file = "/WEB-INF/views/header.jsp" %>
+<%@include file = "/WEB-INF/views/home.jsp" %>
+<%@include file = "/WEB-INF/views/menu.jsp" %>
+<%@include file = "/WEB-INF/views/footer.jsp" %>
 </div>
+<!-- ./wrapper -->
+
 </body>
 </html>

@@ -54,3 +54,4 @@ target/*
 
 
 doc-repo/java-spring.juth.bak
+/target/

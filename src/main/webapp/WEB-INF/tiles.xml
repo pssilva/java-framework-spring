@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+<tiles-definitions>  
+    <definition name="base.definition"  
+        template="/webapp/WEB-INF/views/layout.jsp">  
+        <put-attribute name="title" value="AdminLTE 2 | Dashboard" />  
+        <put-attribute name="header" value="/webapp/WEB-INF/views/header.jsp" />  
+        <put-attribute name="menu" value="/webapp/WEB-INF/views/menu.jsp" />  
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" /> 
+        <put-attribute name="footer" value="/webapp/WEB-INF/views/footer.jsp" />  
+    </definition>  
+  
+     <!-- <definition name="/" extends="base.definition">  
+        <put-attribute name="title" value="AdminLTE 2 | Dashboard" />  
+        <put-attribute name="body" value="/webapp/WEB-INF/views/home.jsp" />  
+    </definition> -->
+    
+    <definition name="app" extends="base.definition">
+        <put-attribute name="title" value=":: App Application ::" />
+    </definition> 
+  
+    <definition name="hello" extends="base.definition">  
+        <put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/webapp/WEB-INF/views/home.jsp" />  
+    </definition> 
+  
+</tiles-definitions>  
