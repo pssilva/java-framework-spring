@@ -35,6 +35,10 @@ Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [a
 
 - 1. Clonar o projeto: `git clone https://github.com/pssilva/java-framework-spring.git`;
 - 2. Acessar a pasta: `cd java-framework-spring`;
+- 3. Maven: `mvn package`;
+- 4. path WildFly: `echo "export WILDFLY_HOME=/[PATH_TO]/wildfly-10.1.0.Final" >> ~/.bash_profile`;
+- 5. start WildFly: `$WILDFLY_HOME/bin/./standalone.sh`;
+- 6. Em outro terminal, deploy: `$WILDFLY_HOME/bin/jboss-cli.sh --connect --command="deploy --force target/java-framework-spring.war"`;
 
 
 ### Temas 
