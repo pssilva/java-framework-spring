@@ -33,12 +33,12 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 ### Como usar:
 Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [aqui](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstances.html) AWS EC2. Execute os comandos abaixo:
 
-- 1. Clonar o projeto: `git clone https://github.com/pssilva/java-framework-spring.git`;
-- 2. Acessar a pasta: `cd java-framework-spring`;
-- 3. Maven: `mvn package`;
-- 4. path WildFly: `echo "export WILDFLY_HOME=/[PATH_TO]/wildfly-10.1.0.Final" >> ~/.bash_profile`;
-- 5. start WildFly: `$WILDFLY_HOME/bin/./standalone.sh`;
-- 6. Em outro terminal, deploy: `$WILDFLY_HOME/bin/jboss-cli.sh --connect --command="deploy --force target/java-framework-spring.war"`;
+1. Clonar o projeto: `git clone https://github.com/pssilva/java-framework-spring.git`;
+2. Acessar a pasta: `cd java-framework-spring`;
+3. Maven: `mvn package`;
+4. path WildFly: `echo "export WILDFLY_HOME=/[PATH_TO]/wildfly-10.1.0.Final" >> ~/.bash_profile`;
+5. start WildFly: `$WILDFLY_HOME/bin/./standalone.sh`;
+6. Em outro terminal, deploy: `$WILDFLY_HOME/bin/jboss-cli.sh --connect --command="deploy --force target/java-framework-spring.war"`;
 
 
 ### Temas 
@@ -53,11 +53,8 @@ O projeto será adaptado para os seguintes temas (themes):
 ![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
 
 ### Referência
-- Sébastien Goasguen: 2016, O’Reilly Media, Inc., [Docker Cookbook](http://www.allitebooks.com/docker-cookbook/): <br />
-	SOLUTIONS AND EXAMPLES FOR BUILDING DISTRIBUTED APPLICATIONS.
-- Alan Mark Berg: 2015,  Packt Publishing, [Jenkins Continuous Integration Cookbook](https://ebooks-it.org/1784390089-ebook.htm), Second Edition
-- Alan Mark Berg: 2015 - 5,  __ Chapter 5: Kubernetes, pag 149.
-- Christian Posta: 2016, O’Reilly Media, Inc., [Microservices for Java Developers](https://developers.redhat.com/promotions/microservices-for-java-developers/): <br />
-	A Hands-on Introduction to Frameworks and Containers
-- Markus Eisele: 2016, O’Reilly Media, Inc., [Modern Java EE Design Patterns](https://developers.redhat.com/promotions/distributed-javaee-architecture/): <br /> 
-	Building Scalable Architecture for Sustainable Enterprise Development. 
+\[Sébastien Goasguen: 2016\], O’Reilly Media, Inc., [Docker Cookbook](http://www.allitebooks.com/docker-cookbook/): SOLUTIONS AND EXAMPLES FOR BUILDING DISTRIBUTED APPLICATIONS.<br />
+\[Alan Mark Berg: 2015\],  Packt Publishing, [Jenkins Continuous Integration Cookbook](https://ebooks-it.org/1784390089-ebook.htm), Second Edition<br />
+\[Alan Mark Berg: 2015 - 5\],  __ Chapter 5: Kubernetes, pag 149.<br />
+\[Christian Posta: 2016\], O’Reilly Media, Inc., [Microservices for Java Developers](https://developers.redhat.com/promotions/microservices-for-java-developers/): A Hands-on Introduction to Frameworks and Containers <br />
+\[Markus Eisele: 2016\], O’Reilly Media, Inc., [Modern Java EE Design Patterns](https://developers.redhat.com/promotions/distributed-javaee-architecture/): Building Scalable Architecture for Sustainable Enterprise Development. <br />  
