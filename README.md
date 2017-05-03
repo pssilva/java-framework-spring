@@ -16,18 +16,18 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 
 
 1. Spring 4.x, Spring Boot, Spring Security, Spring Core, Spring OAuth;
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/spring-core-arquitetura.png" alt="Arquitetura do Spring Core 4.x" height="300" width="400"/></p>
+    <p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/spring-core-arquitetura.png" alt="Arquitetura do Spring Core 4.x" height="300" width="400"/></p>
 2. EJB 2, EJB 3, Hibernate 3/JPA, Hibernate 2/JPA, Java SWT, JBoss 4.x, 7.x, Wildfly;
 3. Experiência em sistemas de banco de dados NoSQL (Cassandra, [MongoDB](https://www.mongodb.com/), etc.);
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/mongoDB.png" alt="Experiência em sistemas de banco de dados NoSQL" height="50" width="195"/></p>
+    <p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/mongoDB.png" alt="Experiência em sistemas de banco de dados NoSQL" height="50" width="195"/></p>
 4. Experiência em sistemas de containerização (e.g. [Docker](https://hub.docker.com/r/pss1suporte/paas-docker/));
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/docker.png" alt="Experiência em sistemas de containerização Docker" height="50" width="195"></p>
+    <p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/docker.png" alt="Experiência em sistemas de containerização Docker" height="50" width="195"></p>
 5. Experiência em sistemas Linux e shell scripting;
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/shell-linux.jpeg" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
+    <p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/shell-linux.jpeg" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
 6. Experiência em sistemas Amazon Web Services - AWS;
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/aws.png" alt="Experiência em sistemas Amazon Web Services - AWS" height="50" width="195"></p>
+    <p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/aws.png" alt="Experiência em sistemas Amazon Web Services - AWS" height="50" width="195"></p>
 7. Experiência em usar Oracle WebLogic Server;
-	<p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/ows.png" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
+    <p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/ows.png" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
 8. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
 
 ### Como usar:
@@ -52,7 +52,7 @@ O projeto será adaptado para os seguintes temas (themes):
 
 2. [Gentelella Allela](https://github.com/puikinsh/gentelella); <br />
 >Gentelella Allela
-![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+![Gentelella Bootstrap Admin Template](https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/theme-gentelella.png "Gentelella Theme Browser Preview")
 
 ### Referência
 \[Sébastien Goasguen: 2016\], O’Reilly Media, Inc., [Docker Cookbook](http://www.allitebooks.com/docker-cookbook/): SOLUTIONS AND EXAMPLES FOR BUILDING DISTRIBUTED APPLICATIONS.<br />
