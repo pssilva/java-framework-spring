@@ -4,7 +4,7 @@ Projeto conceito para implementar soluções usando o Frameworks Spring O projet
 
 ## Objetivos Principais [Conceitos](http://stackoverflow.com/questions/28608015/continuous-integration-vs-continuous-delivery-vs-continuous-deployment):
 - Criar uma sistema usando as tecnologias: Spring, JSP, JPA, JSON, JUnit;
-- Criar um sistema usando tecnologias Framework Springhttps://github.com/pssilva/javaFrameworkSpring.git;
+- Criar um sistema usando tecnologias Framework Spring como um todo;
 - Usar um ambiente Plataform as a Service - PaaS;
 - [Jenkins](https://jenkins.io/) - Integração Contínua; 
 - Projetar Sistemas usando Arquiterura Microservices;
