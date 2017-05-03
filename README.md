@@ -30,6 +30,8 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
     <p><img src="https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/ows.png" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
 8. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
 
+![Microservices](https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/microservices-domain.png)
+
 ### Como usar:
 Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [aqui](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstances.html) AWS EC2. Execute os comandos abaixo:
 
