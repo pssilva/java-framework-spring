@@ -57,8 +57,9 @@ O projeto será adaptado para os seguintes temas (themes):
 ![Gentelella Bootstrap Admin Template](https://github.com/pssilva/java-framework-spring/blob/master/doc-repo/theme-gentelella.png "Gentelella Theme Browser Preview")
 
 ### Referência
-\[Sébastien Goasguen: 2016\], O’Reilly Media, Inc., [Docker Cookbook](http://www.allitebooks.com/docker-cookbook/): SOLUTIONS AND EXAMPLES FOR BUILDING DISTRIBUTED APPLICATIONS.<br />
-\[Alan Mark Berg: 2015\],  Packt Publishing, [Jenkins Continuous Integration Cookbook](https://ebooks-it.org/1784390089-ebook.htm), Second Edition<br />
+\[Sébastien Goasguen: 2016\], O’Reilly Media, Inc., [Docker Cookbook](https://www.oreilly.com/library/view/docker-cookbook/9781491919705/): SOLUTIONS AND EXAMPLES FOR BUILDING DISTRIBUTED APPLICATIONS.<br />
+\[Alan Mark Berg: 2015\],  Packt Publishing, [Jenkins Continuous Integration Cookbook](https://www.amazon.com.br/Jenkins-Continuous-Integration-Cookbook-Mitesh/dp/1788297946), Second Edition<br />
 \[Alan Mark Berg: 2015 - 5\],  __ Chapter 5: Kubernetes, pag 149.<br />
 \[Christian Posta: 2016\], O’Reilly Media, Inc., [Microservices for Java Developers](https://developers.redhat.com/promotions/microservices-for-java-developers/): A Hands-on Introduction to Frameworks and Containers <br />
-\[Markus Eisele: 2016\], O’Reilly Media, Inc., [Modern Java EE Design Patterns](https://developers.redhat.com/promotions/distributed-javaee-architecture/): Building Scalable Architecture for Sustainable Enterprise Development. <br />  
+\[Markus Eisele: 2016\], O’Reilly Media, Inc., [Modern Java EE Design Patterns](https://developers.redhat.com/promotions/distributed-javaee-architecture/): Building Scalable Architecture for Sustainable Enterprise Development. <br />
+
