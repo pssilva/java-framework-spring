@@ -158,12 +158,13 @@
                 </exclusions>
             </dependency>
 
-            <!-- Add H2 dependency for embedded testing database -->
+            <!-- Add H2 dependency for embedded testing database 
             <dependency>
                 <groupId>com.h2database</groupId>
                 <artifactId>h2</artifactId>
                 <version>${version.h2db}</version>
             </dependency>
+	    -->
 
             <!-- Add JSON dependency, specified in jboss-deployment-structure.xml -->
             <dependency>
